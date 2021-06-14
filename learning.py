@@ -17,6 +17,3 @@ def generate_values(count):
         else:
             values.append(words[ randrange(len(words)-1) ])
     return values
-
-for val in generate_values(20):
-    print(val, type(val) is int)
